@@ -3,7 +3,7 @@
 
 #include "duck.h"
 
-class MallardDuck : Duck {
+class MallardDuck : public Duck {
 public:
     MallardDuck();
     void display();
